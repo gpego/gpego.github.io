@@ -1,75 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Giovanni Pegoraro</title>
-    <style>
-        .container {
-            display: flex; /* This will arrange the elements in a row */
-            justify-content: space-between; /* This will put space between the elements */
-            padding-top: 50px;
-            position: absolute;
-            background-color: black;
-            width: 100%;
-            top: 0;
-            left: 0;
-        }
-        a.head {
-            color: #ABB2B9; /* Text's color */
-            font-family: Courier, monospace; /* Change this to your desired font */
-            font-weight: bold; /* Change this to your desired font weight */
-            font-size: 20px; /* Font size */
-        }
-        h1 {
-            color: #C0392B; /* Title's color */
-            font-family: Garamond, serif; /* Change this to your desired font */
-            font-weight: normal; /* Change this to your desired font weight */
-            font-size: 60px; /* Font size */
-            margin-left: 150px;
-            margin-top: 170px;
-        }
-        p {
-            font-family: Garamond, serif; /* Change this to your desired font */
-            font-weight: normal; /* Change this to your desired font weight */
-            font-size: 20px; /* Font size */
-            margin-top: 130px;
-        }
-        img {
-            height: 600px;
-            margin-top: 130px; /* Add space to the top of the image */
-            margin-right: 120px;
-        }
-        .links {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 10px;
-        }
-    </style>
+    <title>Your Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
-
 <body>
-    <div class="container">
-        <a class="head" style="text-decoration:none; margin-left: 30px;" href="../home/home.html">Giovanni Pegoraro</a>
-        <div class="links">
-            <a class="head" style="margin-right: 30px;" href="../home/home.html">About</a>
-            <a class="head" style="text-decoration:none; margin-right: 30px;" href="../projects/projects.html">Projects</a>
-            <a class="head" style="text-decoration:none; margin-right: 30px;" href="../achievements/achievements.html">Achievements</a>
-            <a class="head" style="text-decoration:none; margin-right: 30px;" href="../contacts/contacts.html">Contacts</a>
+    <div id="banner">
+        <h1 id="title">Your Website Title</h1>
+        <div id="menu">
+            <a href="page1.html">Page 1</a> |
+            <a href="page2.html">Page 2</a> |
+            <a href="page3.html">Page 3</a> |
+            <a href="page4.html">Page 4</a>
         </div>
-    </div>
-
-    <div style="display: flex; justify-content: space-between;">
-        <div>
-            <h1 style="text-align: left;">
-                A few things
-                <br />
-                about me
-            </h1>
-            <p style="text-align: right; margin-right: 80px; margin-left: 175px">
-                I am a high school student of electronics and automation. My passion for electronics, automation, and computer science drives me to constantly seek new challenges and learning opportunities. This interest is not limited to my school education, but also extends to my free time, during which I carry forward various personal projects. Looking to the future, after university studies, my goal is to work in the world of robotics. I am fascinated by the multidisciplinary nature of this subject and the possibility of creating new things.
-            </p>
-        </div>
-        <img src="img.jpg" alt="Your Image Description">
+        <hr id="underline">
     </div>
 </body>
 </html>

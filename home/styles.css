@@ -49,3 +49,12 @@ body {
     margin-right: 20px;
     margin-left: 20px;
 }
+
+#menu a:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-line: dotted;
+    text-decoration-color: rgb(0, 255, 191);
+    margin-right: 20px;
+    margin-left: 20px;
+}

@@ -51,10 +51,7 @@ body {
 }
 
 #menu a:hover {
-    color: white;
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    text-decoration-color: aquamarine;
+    color: rgba(255, 255, 255, 0.733);
     margin-right: 20px;
     margin-left: 20px;
 }

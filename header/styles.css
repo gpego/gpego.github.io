@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    background-color: #3300ff; /* Your desired color */
+    height: 350px; /* Set the height as needed */
+    /* Add other styling properties (e.g., text color, alignment) */
+    display: flex; /* Example: Align content horizontally */
+    justify-content: center; /* Example: Center content horizontally */
+    align-items: center; /* Example: Center content vertically */
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+#title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: 'Impact', sans-serif;
+    font-size: 100px;
+    line-height: 80px; /* Adjust this value to change the vertical spacing */
+    padding-top: 0; /* Adjust this value to change the space at the top */
+    color:aquamarine;
+}
+
+#menu {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    margin: 0;
+    padding: 17px;
+    border-bottom: 2px solid white;
+    font-family: 'Rockwell', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#menu a:hover {
+    color: rgba(255, 255, 255, 0.733);
+    margin-right: 20px;
+    margin-left: 20px;
+}

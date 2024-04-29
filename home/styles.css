@@ -5,15 +5,18 @@ body {
 
 #profile-pic {
     position: absolute;
+    top: 190px;
+    left: 180px;
+}
+
+#profile-photo {
     aspect-ratio: 4 / 3;
     height: 500px;
-    top: 200px;
-    left: 200px;
 }
 
 #title {
-    position: relative;
-    top: 130px;
+    position: absolute;
+    top: 240px;
     left: 950px;
     font-family: 'Impact', sans-serif;
     font-size: 70px;
@@ -22,11 +25,29 @@ body {
 .highlighted-title {
     padding: 10px;
     background-color: rgb(140, 0, 255);
-    color: rgb(255, 164, 255);
+    color: rgb(255, 179, 255);
 }
 
-#caption {
+#text {
+    position: relative;
+    top: 440px;
     font-family: 'Rockwell', sans-serif;
     font-size: 20px;
+    color: rgb(76, 76, 76);
+}
+
+#text-paragraph {
+    margin-left: 350px;
+    width: 750px;
+}
+
+#text::after {
+    content: "Made with ❤️ by humans... ...with the help of an LLM."; /* Required for pseudo-elements */
     color: white;
+    display: block; /* Make it a block element */
+    margin-top: 100px;
+    background-color: black; /* Your desired color */
+    padding: 20px;
+    height: 55px; /* Set the height as needed */
+    text-align: center;
 }

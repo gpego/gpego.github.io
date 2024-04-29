@@ -1,0 +1,20 @@
+/* Add a white background color to the top navigation */
+.topnav {
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.97); /* White with 80% opacity */
+    overflow: hidden;
+    top: -50px;
+    transition: top 0.1s; /* Add smooth transition effect */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #333; /* Text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}

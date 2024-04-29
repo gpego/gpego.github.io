@@ -6,16 +6,13 @@ body {
 #background {
     background-color: #3300ff; /* Your desired color */
     height: 350px; /* Set the height as needed */
-    /* Add other styling properties (e.g., text color, alignment) */
     display: flex; /* Example: Align content horizontally */
     justify-content: center; /* Example: Center content horizontally */
     align-items: center; /* Example: Center content vertically */
 }
 
 #banner {
-    position: relative;
     width: 100%;
-    height: 100px;
 }
 
 #logo {

@@ -1,0 +1,11 @@
+#content {
+    width: 100%;
+}
+
+#caption {
+    padding-left: 10px;
+    font-family: 'Rockwell', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: gray;
+}

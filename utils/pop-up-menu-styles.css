@@ -32,16 +32,11 @@
     color: rgba(0, 0, 0, 0.703);
 }
 
-.shift {
-    position: relative;
-    right: 50px;
-}
-
-.popup-title {
+.topnav g {
     position: relative;
     left: 100px;
-    top: -5px;
     font-family: 'Impact', sans-serif;
     font-size: 25px;
+    top: -6px;
     color: rgb(154, 205, 222);
 }

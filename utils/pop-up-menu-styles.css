@@ -8,8 +8,8 @@
     top: -60px;
     transition: top 0.1s; /* Add smooth transition effect */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.099); /* Add a shadow effect */
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 17px;
+    padding-bottom: 9px;
 }
 
 /* Style the links inside the navigation bar */
@@ -30,6 +30,11 @@
 
 .topnav a:hover {
     color: rgba(0, 0, 0, 0.703);
+}
+
+.shift {
+    position: relative;
+    right: 50px;
 }
 
 .topnav g {

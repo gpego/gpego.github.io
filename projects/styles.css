@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.image-container {
+    position: relative;
+    left: 180px;
+}
+.image {
+    flex: 1;
+    height: 400px;
+}
+.content {
+    flex: 2;
+}
+.title {
+    position: relative;
+    left: 300px;
+    font-family: 'Impact', sans-serif;
+    font-size: 70px;
+}
+.highlighted-title {
+    position: relative;
+    left: 300px;
+    padding: 10px;
+    font-family: 'Impact', sans-serif;
+    font-size: 70px;
+    background-color: rgb(140, 0, 255);
+    color: rgb(255, 179, 255);
+}
+.text {
+    position: relative;
+    top: 200px;
+    font-family: 'Rockwell', sans-serif;
+    font-size: 20px;
+    color: rgb(76, 76, 76);
+}
+.image-description {
+    font-size: 14px;
+    color: #888;
+}

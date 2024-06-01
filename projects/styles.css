@@ -45,3 +45,33 @@
     position: relative;
     left: 180px;
 }
+
+.content {
+    position: absolute;
+    top: 190px;
+    width: 100vw;
+}
+
+.content::after {
+    content: "Made with ❤️ on Hearth by a human... ...with the help of an LLM."; /* Required for pseudo-elements */
+    font-family: 'Rockwell', sans-serif;
+    color: white;
+    display: block; /* Make it a block element */
+    background-color: black; /* Your desired color */
+    padding: 20px;
+    height: 55px; /* Set the height as needed */
+    text-align: center;
+}
+
+#vertical-text {
+    position: absolute;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    right: 0;
+    margin-right: 150px;
+    top: 650px;
+    font-family: 'Impact', sans-serif;
+    font-size: 300px;
+    line-height: 80px;
+    color: rgb(154, 205, 222);
+}

@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 .paragraph {
     display: flex;
     flex-direction: column;
@@ -73,5 +77,5 @@
     font-family: 'Impact', sans-serif;
     font-size: 300px;
     line-height: 80px;
-    color: rgb(154, 205, 222);
+    color: rgba(154, 205, 222, 0.703);
 }

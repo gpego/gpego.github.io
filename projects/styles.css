@@ -59,6 +59,7 @@ html {
 .content::after {
     content: "Made with ❤️ on Hearth by a human... ...with the help of an LLM."; /* Required for pseudo-elements */
     font-family: 'Rockwell', sans-serif;
+    font-size: 16px;
     color: white;
     display: block; /* Make it a block element */
     background-color: black; /* Your desired color */

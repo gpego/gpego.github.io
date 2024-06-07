@@ -53,7 +53,7 @@ html {
 .content {
     position: absolute;
     top: 190px;
-    width: 100vw;
+    width: 100%;
 }
 
 .content::after {

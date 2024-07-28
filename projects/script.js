@@ -16,10 +16,15 @@ function setPopupSeen() {
     localStorage.setItem('hasSeenPopup', 'true');
 }
 
-function handleLinkClick(event) {
-    event.preventDefault();
+function handlePopupClick(event) {
+    const closeButton = event.target.closest('.close-button'); // Assume the close button has a 'close-button' class
     const link = event.target.closest('a');
-    if (link) {
+
+    if (closeButton) {
+        event.preventDefault();
+        closePopup();
+    } else if (link) {
+        event.preventDefault();
         closePopup();
         window.open(link.href, '_blank');
     }
@@ -33,6 +38,6 @@ window.addEventListener('load', function() {
         
         // Add click event listener to the popup
         const popup = document.getElementById('popupOverlay');
-        popup.addEventListener('click', handleLinkClick);
+        popup.addEventListener('click', handlePopupClick);
     }
 });

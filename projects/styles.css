@@ -97,6 +97,7 @@ html {
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
 .popup {
     background-color: rgba(255, 255, 255, 0.695);
     backdrop-filter: blur(10px);
@@ -108,42 +109,40 @@ html {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transform: scale(0.9);
     transition: transform 0.3s ease;
+    position: relative;
 }
-.popup-close {
+
+.close-button {
     position: absolute;
     top: 10px;
     right: 15px;
     font-size: 24px;
     color: #333;
     cursor: pointer;
-    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    line-height: 1;
 }
+
 .popup h2 {
     font-family: 'Rockwell', sans-serif;
     margin-top: 0;
     color: black;
     font-size: 30px;
 }
+
 .popup p {
     font-family: 'Rockwell', sans-serif;
     color: black;
     font-size: 18px;
 }
-.popup-button {
-    font-family: 'Rockwell', sans-serif;
-    background-color: rgb(140, 0, 255);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-top: 15px;
-}
+
 .popup-visible {
     opacity: 1;
     visibility: visible;
 }
+
 .popup-visible .popup {
     transform: scale(1);
 }

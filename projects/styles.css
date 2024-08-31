@@ -44,6 +44,10 @@ html {
     left: 180px;
 }
 
+.video-left {
+    position: relative;
+    left: 180px;
+}
 
 .title-left {
     position: relative;
